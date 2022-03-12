@@ -150,6 +150,31 @@ body {
 	margin: 2em 0;
 }
 
+/* BUTTON PART */
+.bottom-button {
+	color: rgb(214, 205, 205);
+	width: 52.5%;
+	margin: 10px 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: linear-gradient(to right, #37ed7d 10%, #28c57f, #1cb088, #119a8e);
+	border-radius: 5px;
+}
+
+.money-back {
+	width: 52.5%;
+	text-align: center;
+	color: #00000091;
+	font-weight: 500;
+}
+
+.last-line {
+	width: 52.5%;
+	margin-top: 3em;
+}
+
+
 
 @media screen and (max-width: 1000px) {
   .para-3 {
@@ -181,31 +206,24 @@ body {
 	width: 100%;
 	font-size: 0.8em;
   }
-  .card-1 {
+  .card {
 	width: 100%;
+	font-size: 0.8em;
+	padding: 1.3em 2em;
+	
   }
+  .bottom-button{
+	  width: 100%;
+	  font-size: 0.75em;
+	  color: #fff;
+  }
+  .money-back{
+	  width: 100%;
+  }
+  .last-line{
+	  width: 100%;;
+	  margin-top: 1em;
+  }
+
 }
 
-/* BUTTON PART */
-.bottom-button {
-	color: rgb(214, 205, 205);
-	width: 52.5%;
-	margin: 10px 0px;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-image: linear-gradient(to right, #37ed7d 10%, #28c57f, #1cb088, #119a8e);
-	border-radius: 5px;
-}
-
-.money-back {
-	width: 52.5%;
-	text-align: center;
-	color: #00000091;
-	font-weight: 500;
-}
-
-.last-line {
-	width: 52.5%;
-	margin-top: 3em;
-}
