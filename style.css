@@ -57,9 +57,9 @@ body {
 /* STICKY SECTION */
 
 .sticky {
-	position: absolute;
+	position: fixed;
 	top: 10%;
-	left: 60%;
+	left: 62%;
 	height: auto;
 	width: 27%;
 	background-color: #000;
@@ -67,11 +67,12 @@ body {
 	padding: 15px;
 	border-radius: 5px;
 	box-shadow: 2px 2px 2px #fff;
-	position: fixed;
 }
+
 .sticky p {
 	margin: 5px 0px;
 }
+
 .video {
 	box-shadow: 0px 0px 5px #fff, 0px 0px 30px #01a757;
 	margin-top: 10px;
@@ -107,12 +108,32 @@ body {
 	margin: 1em auto;
 }
 
+.body .all-cards h1 {
+	color: #2c0573;
+	font-weight: 700;
+	font-size: 1.8em;
+}
+
+.body .all-cards h3 {
+	font-size: 1.5em;
+	margin: 0.5em 0;
+	font-weight: 600;
+}
+
+.body .all-cards p {
+	font-weight: 400;
+	margin: 1em auto;
+}
+
+.all-cards div {
+	border-radius: 5px;
+}
+
 .card-1 {
 	width: 52.5%;
-	color: #2c0573;
 	background-color: white;
 	color: black;
-	padding: 2em;
+	padding: 1.5em 2.5em;
 	margin: 2em 0;
 }
 
@@ -120,7 +141,7 @@ body {
 	width: 52.5%;
 	background-color: white;
 	color: black;
-	padding: 2em;
+	padding: 1.5em 2.5em;
 	margin: 2em 0;
 }
 
@@ -128,7 +149,7 @@ body {
 	width: 52.5%;
 	background-color: white;
 	color: black;
-	padding: 2em;
+	padding: 1.5em 2.5em;
 	margin: 2em 0;
 }
 
@@ -136,7 +157,7 @@ body {
 	width: 52.5%;
 	background-color: white;
 	color: black;
-	padding: 2em;
+	padding: 1.5em 2.5em;
 	margin: 2em 0;
 }
 
@@ -144,7 +165,7 @@ body {
 	width: 52.5%;
 	background-color: white;
 	color: black;
-	padding: 2em;
+	padding: 1.5em 2.5em;
 	margin: 2em 0;
 }
 
@@ -152,7 +173,7 @@ body {
 	width: 52.5%;
 	background-color: white;
 	color: black;
-	padding: 2em;
+	padding: 1.5em 2.5em;
 	margin: 2em 0;
 }
 
@@ -160,7 +181,7 @@ body {
 	width: 52.5%;
 	background-color: white;
 	color: black;
-	padding: 2em;
+	padding: 1.5em 2.5em;
 	margin: 2em 0;
 }
 
@@ -168,6 +189,30 @@ body {
 	width: 52.5%;
 	background-color: white;
 	color: black;
-	padding: 2em;
+	padding: 1.5em 2.5em;
 	margin: 2em 0;
+}
+
+/* BUTTON PART */
+.bottom-button {
+	color: rgb(214, 205, 205);
+	width: 52.5%;
+	margin: 10px 0px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: linear-gradient(to right, #37ed7d 10%, #28c57f, #1cb088, #119a8e);
+	border-radius: 5px;
+}
+
+.money-back {
+	width: 52.5%;
+	text-align: center;
+	color: #00000091;
+	font-weight: 500;
+}
+
+.last-line {
+	width: 52.5%;
+	margin-top: 3em;
 }
