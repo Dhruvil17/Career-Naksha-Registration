@@ -1,173 +1,221 @@
 * {
-	margin: 0;
-	box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-	font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1;
 }
 
 /* HEADER SECTION */
 
 .header {
-	background-image: linear-gradient(to right, black 18%, #0d094d, #0d094d, black);
+  background-image: linear-gradient(
+    to right,
+    black 18%,
+    #0d094d,
+    #0d094d,
+    black
+  );
 }
 
 .header-content {
-	width: 52.5%;
-	padding: 5% 0 5% 10%;
-	color: white;
+  width: 52.5%;
+  padding: 5% 0 5% 10%;
+  color: white;
 }
 
 .header-content .title {
-	line-height: 1em;
-	font-size: 3.4em;
-	font-weight: 700;
+  line-height: 100%;
+  font-size: 3.4em;
 }
 
 .title-content {
-	color: #01ff85;
+  color: #01ff85;
 }
 
 .ratings {
-	color: #01ff85;
-	font-weight: 500;
-	font-size: 20px;
+  color: #01ff85;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .para-1 {
-	font-size: 1.3em;
-	margin: 12px auto 20px;
-	font-weight: 600;
+  font-size: 1.3em;
+  margin: 12px auto 20px;
+  font-weight: 600;
 }
 
 .para-2 {
-	font-size: 1.1em;
-	font-weight: 600;
-	margin: 10px auto 20px;
+  font-size: 1.1em;
+  font-weight: 600;
+  margin: 10px auto 20px;
 }
 
 .para-3 {
-	font-size: 1.1em;
-	font-weight: 400;
-	margin: 10px auto 20px;
-	line-height: 1.5em;
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 10px auto 20px;
+  line-height: 1.5em;
 }
 
 /* STICKY SECTION */
 
 .sticky {
-	position: absolute;
-	top: 10%;
-	left: 60%;
-	height: auto;
-	width: 27%;
-	background-color: #000;
-	color: rgb(214, 205, 205);
-	padding: 15px;
-	border-radius: 5px;
-	box-shadow: 2px 2px 2px #fff;
-	position: fixed;
+  position: absolute;
+  top: 10%;
+  left: 62%;
+  height: auto;
+  width: 27%;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(155, 149, 149);
+  position: fixed;
 }
 .sticky p {
-	margin: 5px 0px;
+  margin: 10px 0px;
+  letter-spacing: 0.6px;
 }
 .video {
-	box-shadow: 0px 0px 5px #fff, 0px 0px 30px #01a757;
-	margin-top: 10px;
-	margin-bottom: 10px;
+  box-shadow: 0px 0px 5px #fff, 0px 0px 30px #01a757;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .button {
-	margin: 10px 0px;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-image: linear-gradient(to right, #37ed7d 10%, #28c57f, #1cb088, #119a8e);
-	border-radius: 5px;
+  margin: 10px 0px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(
+    to right,
+    #37ed7d 10%,
+    #28c57f,
+    #1cb088,
+    #119a8e
+  );
+  border-radius: 5px;
 }
 
 /* BODY SECTION */
 
 .body {
-	background-color: #f0f0f0;
-	padding: 5% 0 5% 10%;
+  background-color: #f0f0f0;
+  padding: 5% 0 5% 10%;
 }
 
 .body-content {
-	width: 52.5%;
-	color: #2c0573;
-	font-size: 1.4em;
+  width: 52.5%;
+  color: #2c0573;
+  font-size: 1.4em;
 }
 
 .title {
-	font-weight: 800;
+  font-weight: 800;
 }
 
 .line {
-	margin: 1em auto;
+  margin: 1em auto;
 }
 
 .card-1 {
-	width: 52.5%;
-	color: #2c0573;
-	background-color: white;
-	color: black;
-	padding: 2em;
-	margin: 2em 0;
+  width: 52.5%;
+  color: #2c0573;
+  background-color: white;
+  color: black;
+  padding: 2em;
+  margin: 2em 0;
 }
 
 .card-2 {
-	width: 52.5%;
-	background-color: white;
-	color: black;
-	padding: 2em;
-	margin: 2em 0;
+  width: 52.5%;
+  background-color: white;
+  color: black;
+  padding: 2em;
+  margin: 2em 0;
 }
 
 .card-3 {
-	width: 52.5%;
-	background-color: white;
-	color: black;
-	padding: 2em;
-	margin: 2em 0;
+  width: 52.5%;
+  background-color: white;
+  color: black;
+  padding: 2em;
+  margin: 2em 0;
 }
 
 .card-4 {
-	width: 52.5%;
-	background-color: white;
-	color: black;
-	padding: 2em;
-	margin: 2em 0;
+  width: 52.5%;
+  background-color: white;
+  color: black;
+  padding: 2em;
+  margin: 2em 0;
 }
 
 .card-5 {
-	width: 52.5%;
-	background-color: white;
-	color: black;
-	padding: 2em;
-	margin: 2em 0;
+  width: 52.5%;
+  background-color: white;
+  color: black;
+  padding: 2em;
+  margin: 2em 0;
 }
 
 .card-6 {
-	width: 52.5%;
-	background-color: white;
-	color: black;
-	padding: 2em;
-	margin: 2em 0;
+  width: 52.5%;
+  background-color: white;
+  color: black;
+  padding: 2em;
+  margin: 2em 0;
 }
 
 .card-7 {
-	width: 52.5%;
-	background-color: white;
-	color: black;
-	padding: 2em;
-	margin: 2em 0;
+  width: 52.5%;
+  background-color: white;
+  color: black;
+  padding: 2em;
+  margin: 2em 0;
 }
 
 .card-8 {
-	width: 52.5%;
-	background-color: white;
-	color: black;
-	padding: 2em;
-	margin: 2em 0;
+  width: 52.5%;
+  background-color: white;
+  color: black;
+  padding: 2em;
+  margin: 2em 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .para-3 {
+    display: none;
+  }
+  .header-content {
+    width: 100%;
+	padding: 10% 0 5% 5%;
+  }
+  .header-content .title {
+    font-size: 1.5em;
+  }
+  .para-2,.para-1{
+	  font-size: 1em;
+	  line-height: 1em;
+  }
+  .sticky{
+	  position: relative;
+	  top: 0%;
+	  left: 0%;
+	  width: 100%;
+	  border: none;
+	  border-radius: 0px;
+  }
+  .body {
+	padding: 10% 5% 5% 5%;
+  }
+  .body-content {
+	width: 100%;
+	font-size: 0.8em;
+  }
+  .card-1 {
+	width: 100%;
+  }
 }
